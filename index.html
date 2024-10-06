@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Text Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <header class="header-container">
+        <div>
+            <div>
+                <img src="./assets/Sample Logo.png" alt="">
+            </div>
+            <div class="hamburger">
+                <i id="hamburger" class="ri-menu-2-line"></i>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="btn-primary-outline">Login</button>
+            <button class="btn-primary">Register</button>
+        </div>
+
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-wrapper">
+            <div>
+                <h1>The largest community of photo enthusiasts</h1>
+                <button class="btn-primary"> Join Today</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2-container">
+        <div class="section-2-wrapper">
+            <h2><span class="d-md-block">Snap photos and share like</span> <span class="d-md-block">never before</span>
+            </h2>
+            <section id="sec-2-grid-container" class="sec-2-grid-container">
+            </section>
+        </div>
+    </section>
+
+    <div class="divider"> </div>
+
+    <section class="section-3-container">
+
+        <div class="section-3-wrapper">
+            <div>
+                <h2 class="headtext">Have you ever posted any photo on social media?</h2>
+                <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt
+                    ut labore</p>
+            </div>
+
+            <div>
+                <div id="sec-3-container" class="sec-3-container">
+                </div>
+                <div>
+                    <img src="./assets/section-3/sec-3-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"> </div>
+
+    <section class="section-4-container">
+        <div class="section-4-wrapper">
+            <div>
+                <h3 class="headtext">Make your photos more stylish </h3>
+                <p class="subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore</p>
+            </div>
+            <div class="card-container" id="card-container">
+
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="section-5-container">
+        <div class="section-5-wrapper">
+            <h2 class="headtext"> Ready to take a free trial?</h2>
+            <p class="subtext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut
+                labore</p>
+
+            <div>
+                <div class="form-container">
+                    <form class="signup-form" id="signupForm">
+                        <h2>Sign up for a free account</h2>
+                        <div class="input-row">
+                            <input type="text" id="firstName" placeholder="First name" required>
+                            <input type="text" id="lastName" placeholder="Last name" required>
+                        </div>
+                        <div class="input-row">
+                            <input type="email" id="email" placeholder="Email address" required>
+                            <input type="tel" id="phone" placeholder="Phone Number" required maxlength="10"
+                                pattern="[0-9]{10}">
+                        </div>
+                        <input type="password" id="password" placeholder="Create password" required minlength="8">
+                        <button class="btn-primary" type="submit">Register</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div id="form-result"></div> -->
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <div>
+                    <img src="./assets/footer/FooterLogo.png" alt="">
+                </div>
+                <div>
+                    <div class="footer-grid">
+                        <ul>
+                            <p>Mobile App</p>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Community</a></li>
+
+                        </ul>
+                        <ul>
+                            <p>Community</p>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+
+                        </ul>
+                        <ul>
+                            <p>Company</p>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn-primary"> Register</button>
+                    <button class="btn-primary-outline">Log in</button>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© Photo, Inc. 2019. We love our users!</p>
+            <div>
+                <p>Follow us:</p>
+                <div id="social-icons-container" class="social-icons-container"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
